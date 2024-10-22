@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  background-image: url(../images/digitization.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4rem;
+  text-shadow: 2px 2px 2px #000000;
+  color: #88c273;
+  padding-top: 50px;
+  margin-bottom: 150px;
+}
+
+.author > p {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #d4bdac;
+  padding-left: 30px;
+}
+.quotes > p {
+  font-size: 3rem;
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: #fff1db;
+  padding-left: 30px;
+}
